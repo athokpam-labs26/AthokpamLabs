@@ -1,0 +1,6 @@
+{
+  "name": "bolt.diy",
+  "description": "Full-stack AI development sandbox to prompt, edit, build, and run web applications in your browser.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
