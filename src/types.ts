@@ -65,5 +65,22 @@ export interface GitHubExportOptions {
   includeBadge: boolean;
   token: string;
 }
+export interface SupabaseConfig {
+  projectUrl: string;
+  anonKey: string;
+  serviceRoleKey?: string;
+  databaseUrl?: string;
+  isConnected: boolean;
+  projectName?: string;
+  lastTestedAt?: string;
+  tables?: string[];
+}
 
-
+export interface ApiErrorInfo {
+  provider?: string;
+  model?: string;
+  statusCode?: number;
+  message: string;
+  timestamp: string;
+  canFallback: boolean;
+}
